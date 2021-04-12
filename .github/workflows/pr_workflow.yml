@@ -23,7 +23,7 @@ jobs:
         pip install -r requirements.txt
     - name: unit test
       run: |
-        pytest
+        python -m pytest
     #- name: Build and publish
     #  env:
     #    TWINE_USERNAME: ${{ secrets.PYPI_USERNAME }}

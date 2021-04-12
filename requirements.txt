@@ -1,3 +1,7 @@
 beautifulsoup4==4.9.1
-pywikibot==3.0.20200508
+pywikibot==6.0.1
 asyncio==3.4.3
+pytest-cov==2.8.1
+pytest==5.4.0
+pytest-asyncio==0.14.0
+tqdm==4.60.0
