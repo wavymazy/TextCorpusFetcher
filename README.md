@@ -29,10 +29,18 @@ pip install -r requirements.txt
 
 ### Running
 
-To run the fetcher (for now) simply :
+To run the fetcher simply run the main.py script :
+
+For example to get all articles related to "cuisine" with a depth of 3:
 
 ```
-python main.py
+python CorpusFetcher/main.py --category cuisine --depth 3 
+```
+
+### Test
+
+```
+python -m pytest 
 ```
 
 Parameters (such as theme or category of article you are looking for) are currently variables to be modified in the main.py script (will make them part of the CLI command in the future).
